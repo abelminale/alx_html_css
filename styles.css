@@ -1,0 +1,31 @@
+body{
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+   border-radius: 1px;
+}
+article{
+
+    flex: 2;
+border: 1px solid black;
+}
+ aside{
+    flex: 1;
+    border: 1PX solid black;
+ }
+ article,aside{
+    border: 1PX solid black;
+ 
+    overflow: auto;
+    
+ }
+footer{
+    border: 1px solid black;
+}
